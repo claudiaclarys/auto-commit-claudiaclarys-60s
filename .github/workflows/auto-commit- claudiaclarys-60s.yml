@@ -26,7 +26,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.name " claudiaclarys"
+          git config --local user.name "claudiaclarys"
           git config --local user.email "claudiaclaryys@gmail.com"
           git add -A
           d=`date '+%Y-%m-%d %H:%M:%S'`
